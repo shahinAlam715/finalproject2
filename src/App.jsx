@@ -6,7 +6,7 @@ import Rootlayout from "./Components/Rootlayout"
 
 let router = createBrowserRouter(createRoutesFromElements(
     <Route element={<Rootlayout/>}>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/home" element={<Home/>}></Route>
          <Route path="/product" element={<Product/>}></Route>
     </Route>
 ))
